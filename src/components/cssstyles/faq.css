@@ -1,0 +1,34 @@
+.glav{
+    font-size: 60px;
+}
+.questions-faq{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.application{
+
+    font-family: "Circular Std",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    text-align: left;
+     color: white;
+}
+.faq-wrapper{
+    width: 100%;
+   
+}
+.accordion-faq{
+    width: 100%;
+}
+@media only screen and (max-width: 576px){
+    .questions-faq{
+        width: 100%;
+      
+    }
+    .glav{
+        font-size: 40px;
+    }
+}

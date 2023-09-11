@@ -1,0 +1,158 @@
+.content{
+  display: none;
+}
+.show-content{
+  display: block;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+
+    
+}
+
+.flex-fill{
+    color: #ffffff;
+    cursor: pointer ;
+  
+    text-align: center;
+  width: 100px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+.flex-fill:hover{
+
+    cursor: pointer ;
+  background-color: grey;
+}
+.flex-fill::before{
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   content:'';
+    cursor: pointer ;
+  background-color: green;
+}
+
+.itemat{
+  padding: 20px;
+     background-color: rgba(57, 57, 83, 1);
+    width: 70%;
+    /* height: 40px; */
+    /* background-color: blue; */
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.all-fluid{
+  background-color: #1f1f27;
+
+}
+.all-founder{
+  margin: 0 auto;
+
+}
+.second-all {
+  /* background-color: blue; */
+  width: 70%;
+}
+.rate,.page,.amount{
+  background-color: rgba(57, 57, 83, 1);
+ 
+}
+
+.rate{
+
+font-family: "Circular Std",sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.019em;
+text-align: left;
+color: white ;
+
+}
+.page{
+
+  font-family: "Circular Std",sans-serif;
+
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  
+}
+.amount{
+
+  font-family: "Space Mono",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(200, 199, 216, 1);
+}
+.list-open{
+  color: white;
+  width: 72px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  border-radius: 100px;
+  gap: 16px;
+  
+  background-color: rgba(105, 102, 255, 1);
+}
+.list-open:hover{
+   background-color: blue;
+}
+.list-founded{
+  width: 85px;
+height:32px;
+padding: 4px ;
+border-radius: 100px;
+border: 1px;
+gap: 16px;
+background-color: black;
+
+color: white;
+
+}
+.list-founded:hover{
+background-color: rgb(54, 53, 53);
+}
+.list-completed{
+  width:136px;
+height:32px;
+padding: 4px 16px 4px 16px;
+border-radius: 100px;
+gap: 16px;
+background-color: rgba(22, 181, 127, 1) ;
+color: white;
+
+}
+
+@media only screen and (max-width: 576px){
+  .itemat{
+    width: 100%;
+  }
+  .rate,.page,.amount{
+    width: 100%;
+  }
+  .second-all{
+    width: 100%;
+  }
+
+}

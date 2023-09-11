@@ -1,0 +1,15 @@
+.programtabs{
+    margin-top: 20px;
+}
+.grogram-all{
+    margin-top: 50px;
+    width: 65%;
+}
+.program-round{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 576px){
+    .grogram-all{
+        width: 100%;
+    }
+}

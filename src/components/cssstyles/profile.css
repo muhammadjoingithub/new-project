@@ -1,0 +1,77 @@
+.single-foto{
+    margin-top: 50px;
+}
+.del-button{
+    position: absolute;
+    top: 20%;
+}
+.profile-single{
+    width: 70%;
+}
+.cuper-profile{
+
+font-family: "Circular Std",sans-serif;
+font-size: 60px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: -0.022em;
+text-align: center;
+color: white;
+margin-top: 20px;
+
+}
+.single-links a{
+    text-decoration: none;
+    color: white;
+}
+.single-links{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.twice-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 138px;
+height: 48px;
+padding: 8px 24px 8px 8px;
+border-radius: 100px;
+gap: 16px;
+background-color: rgba(57, 57, 83, 1);
+}
+.twice-link p{
+  margin-top: 15px;
+}
+@media only screen and (max-width: 576px){
+    .profile-single{
+        width: 100%;
+    }
+    .roadmap-adds{
+        width: 100%;
+        height: auto;
+    }
+    .roadmap{
+        width: 100%;
+    }
+    .del-button{
+        display: none;
+    }
+    .cuper-profile{
+
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.017em;
+text-align: center;
+
+    }
+    .single-foto{
+        width: 110px;
+height: 110px;
+border-radius: 1000px;
+
+    }
+}

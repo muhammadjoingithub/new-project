@@ -1,0 +1,81 @@
+.all-grants{
+  background-color: #1f1f27;
+
+}
+.head-grans h1{
+font-family: "Circular Std",sans-serif;
+font-size: 60px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: -0.022em;
+text-align: center;
+color: white;
+margin-top: 50px;
+
+}
+.wrapper-grants{
+    width: auto;
+
+    font-family: "Circular Std",sans-serif;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.011em;
+text-align: center;
+
+}
+
+.grants-header{
+    margin-top: 100px;
+}
+.all-granttypes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   row-gap: 10px;
+
+}
+.toogle2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.togle2{
+    height: auto;
+    width: 31%;
+}
+.first-linkidein{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px){
+    .all-granttypes{
+    display: flex;
+    justify-content: center;
+    }
+
+    .head-grans h1{
+        font-size: 40px;
+    }
+    .wrapper-grants{
+        font-size: 12px;
+        width: auto;
+    }
+    .block-tabs{
+        width: 100%;
+    }
+    .toogle2{
+        display: flex;
+        justify-content: center;
+    }
+    .togle2{
+        
+        width: 100%;
+    }
+    /* .first-linkidein{
+        width: 100%;
+    } */
+}

@@ -1,0 +1,36 @@
+.create-apply{
+    background-color: white;
+    padding: 80px;
+    border-radius: 20px;
+}
+.apply-form span{
+    color:red;
+}
+.apply-form input{
+    width: 100%;
+    border: none;
+    background-color: rgb(213, 213, 241);
+    outline: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 20px;
+} 
+.out-label{
+    font-size: 15px;
+    color: rgb(139, 138, 138);
+}
+.apply-send{
+    width: 100%;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(7, 7, 189);
+}
+@media only screen and (max-width: 576px){
+    .create-apply{
+    
+        padding: 20px;
+        
+    } 
+}
